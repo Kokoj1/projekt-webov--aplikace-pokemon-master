@@ -591,7 +591,7 @@ move1.onclick = () => {
     pokemon.style.marginTop = "-150px";
     setTimeout(function () {
         pokemon.style.marginLeft = "50px";
-        pokemon.style.marginTop = "200px";
+        pokemon.style.marginTop = "320px";
         info.innerHTML = "";
     }, 500);
     if (hpenemy <= 0) {
