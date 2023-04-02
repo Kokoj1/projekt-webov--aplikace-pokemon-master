@@ -107,22 +107,22 @@ enbulbasaur.addEventListener('mouseout', function handleMouseOutEvent() {
 
 
 let yourpok = 0;
-let hpenemy = 16; // životy nepřítele
+let hpenemy = 16;
 let yattdamhpbar1 = 0;
 let yattdamhpbar2 = 0;
 let yattdamhpbar3 = 0;
 let yattdamhpbar4 = 0;
 let yattdamhpbar5 = 0;
-let hpbarlen = 0; // nepřátelská délka hp baru
+let hpbarlen = 0;
 let enemyattdamhpbar = 0;
-let yourhp = 16; // životy hráče
-let yourhpbarlen = 0; // hráčova délka hp baru
-let damage1 = 0; // síla útoku hráče (číselná)
-let damage2 = 0; // síla útoku hráče (číselná)
-let damage3 = 0; // síla útoku hráče (číselná)
-let damage4 = 0; // síla útoku hráče (číselná)
-let damage5 = 0; // síla útoku hráče (číselná)
-let damageen = 0; //síla útoku nepřitele (číselná)
+let yourhp = 16;
+let yourhpbarlen = 0;
+let damage1 = 0;
+let damage2 = 0;
+let damage3 = 0;
+let damage4 = 0;
+let damage5 = 0;
+let damageen = 0;
 let z = 0;
 let u = 0;
 let t = 0;

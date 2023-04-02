@@ -1,169 +1,191 @@
 html,
-body{
-background-color:black;
-color:white;
-font-family:pokemonfont;
-}
-#startscreen{
-    margin:auto;
-    text-align:center
-}
-#charactersel{
-    margin:auto;
-    text-align:center;
-    display:none;
-}
-#choosepok{
-    margin:auto;
-    text-align:center;
-    display:none;
+body {
+    background-color: black;
+    color: white;
+    font-family: pokemonfont;
 }
 
-#battle{
-    display:none;
+#startscreen {
+    margin: auto;
+    text-align: center
+}
+
+#charactersel {
+    margin: auto;
+    text-align: center;
+    display: none;
+}
+
+#choosepok {
+    margin: auto;
+    text-align: center;
+    display: none;
+}
+
+#battle {
+    display: none;
     margin: auto;
     border: 2px solid green;
-    width:1330px;
-    height:790px;
+    width: 1330px;
+    height: 790px;
     background-image: url("../img/Sprite-0001.png")
-   
 }
-#pokemon{
+
+#pokemon {
     background-image: url("../img/pikachu1.png");
-    width:300px;
-    height:300px;
+    width: 300px;
+    height: 300px;
     transition: 1.0s ease;
-    margin-top:320px;
-    position:absolute;
-    margin-left:50px;
+    margin-top: 320px;
+    position: absolute;
+    margin-left: 50px;
 }
-#hpbar{
-    height:10px;
-    width:100px;
-    background-color:red;
-    transition: 1.0s ease;
-}
-#hpbaryour{
-    height:10px;
-    width:100px;
-    background-color:red;
+
+#hpbar {
+    height: 10px;
+    width: 100px;
+    background-color: red;
     transition: 1.0s ease;
 }
-#chooseenpok{
-    display:none;
-    text-align:center;
+
+#hpbaryour {
+    height: 10px;
+    width: 100px;
+    background-color: red;
+    transition: 1.0s ease;
 }
-#enemypok{
+
+#chooseenpok {
+    display: none;
+    text-align: center;
+}
+
+#enemypok {
     background-image: url("../img/porygon1.png");
-    width:300px;
-    height:300px;
-    margin-left:780px;
-    margin-top:100px;
+    width: 300px;
+    height: 300px;
+    margin-left: 780px;
+    margin-top: 100px;
     transition: 1.0s ease;
     position: absolute;
 }
-#menubattle{
-    margin-top:500px;
-    position:absolute;
+
+#menubattle {
+    margin-top: 500px;
+    position: absolute;
 }
-#info{
-    
-    margin-top:110px;
-    width:1330px;
-    height:180px;
-    background-color:red;
+
+#info {
+
+    margin-top: 110px;
+    width: 1330px;
+    height: 180px;
+    background-color: red;
     font-size: x-large;
-    
 
-}
-#moves{
-    margin-left:1050px;
-    position:absolute;
-    width:50px;
-    font-size:x-large;
-    margin-top:135px;
-    font-family:pokemonfont;
 
 }
 
-#your{
-    position:absolute;
-    margin-left:1030px;
-    margin-top:500px;
-    background-color:white;
-    width:200px;
-    color:black;
-    border:5px solid lightgreen;
-}
-#borderenemy{
-    position:absolute;
-    background-color:white;
-    width:200px;
-    color:black;
-    border:5px solid lightgreen;
-    margin-left:100px;
-    margin-top:50px;
-}
-#move1{
-    text-align:center;
-    background-color:lightcoral;
-    border-color: transparent;
-    width:200px;
-    font-size:large;
-    font-family:pokemonfont;
-}
-#move2{
-    text-align:center;
-    background-color:lightcoral;
-    border-color: transparent;
-    width:200px;
-    font-size:large;
-    font-family:pokemonfont;
-}
-#move3{
-    text-align:center;
-    background-color:lightcoral;
-    border-color: transparent;
-    width:200px;
-    font-size:large;
-    font-family:pokemonfont;
-}
-#move4{
-    text-align:center;
-    background-color:lightcoral;
-    border-color: transparent;
-    width:200px;
-    font-size:large;
-    font-family:pokemonfont;
-}
-#move5{
-    text-align:center;
-    background-color:lightcoral;
-    border-color: transparent;
-    width:200px;
-    font-size:large;
-    font-family:pokemonfont;
-}
-#endbutton{
-    display:none;
-    margin-top:250px;
-    position:absolute;
-    margin-left:1250px;
-}
-#endbuttonbad{
-    display:none;
-    margin-top:150px;
-    position:absolute;
-    margin-left:950px;
-}
-#endgood{
-    display:none;
-    color:white;
-}
-#endbad{
-    display:none;
-    color:white;
+#moves {
+    margin-left: 1050px;
+    position: absolute;
+    width: 50px;
+    font-size: x-large;
+    margin-top: 135px;
+    font-family: pokemonfont;
+
 }
 
-@font-face{font-family: pokemonfont;
-    src: url("../fonts/PokemonGb-RAeo.ttf")}
+#your {
+    position: absolute;
+    margin-left: 1030px;
+    margin-top: 500px;
+    background-color: white;
+    width: 200px;
+    color: black;
+    border: 5px solid lightgreen;
+}
+
+#borderenemy {
+    position: absolute;
+    background-color: white;
+    width: 200px;
+    color: black;
+    border: 5px solid lightgreen;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+#move1 {
+    text-align: center;
+    background-color: lightcoral;
+    border-color: transparent;
+    width: 200px;
+    font-size: large;
+    font-family: pokemonfont;
+}
+
+#move2 {
+    text-align: center;
+    background-color: lightcoral;
+    border-color: transparent;
+    width: 200px;
+    font-size: large;
+    font-family: pokemonfont;
+}
+
+#move3 {
+    text-align: center;
+    background-color: lightcoral;
+    border-color: transparent;
+    width: 200px;
+    font-size: large;
+    font-family: pokemonfont;
+}
+
+#move4 {
+    text-align: center;
+    background-color: lightcoral;
+    border-color: transparent;
+    width: 200px;
+    font-size: large;
+    font-family: pokemonfont;
+}
+
+#move5 {
+    text-align: center;
+    background-color: lightcoral;
+    border-color: transparent;
+    width: 200px;
+    font-size: large;
+    font-family: pokemonfont;
+}
+
+#endbutton {
+    display: none;
+    margin-top: 250px;
+    position: absolute;
+    margin-left: 1250px;
+}
+
+#endbuttonbad {
+    display: none;
+    margin-top: 150px;
+    position: absolute;
+    margin-left: 950px;
+}
+
+#endgood {
+    display: none;
+    color: white;
+}
+
+#endbad {
+    display: none;
+    color: white;
+}
+
+@font-face {
+    font-family: pokemonfont;
+    src: url("../fonts/PokemonGb-RAeo.ttf")
+}
